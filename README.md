@@ -34,7 +34,6 @@ git fetch origin master:master
 ```
 git rebase master
 ```
-# Undo commits
 ## undo last commit
 ```
 git reset --mixed HEAD~1
@@ -46,4 +45,8 @@ git reset --mixed HEAD~2
 ## cherry picking
 ```
 git cherry-pick <commit>
+```
+## squash
+```
+git rebase -i HEAD~3
 ```
