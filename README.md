@@ -46,7 +46,7 @@ git reset --mixed HEAD~2
 ```
 git cherry-pick <commit>
 ```
-## squash
+## squash last 3 commits
 ```
 git rebase -i HEAD~3
 ```
